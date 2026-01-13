@@ -69,7 +69,7 @@ Imperceptibility assesses whether the code remains fluent (in terms of Perplexit
 The difference in Perplexity between non-watermarked code $C_{H}$ and watermarked code $C_{wm}$ is normalized to measure imperceptibility.
 
 $$
-\operatorname{PPL}(C_{wm}) =
+\mathrm{PPL}(C_{wm}) =
 \frac{1}{\left|C_{wm}\right|}
 \sum_{j=1}^{\left|C_{wm}\right|}
 \exp\!\left(
