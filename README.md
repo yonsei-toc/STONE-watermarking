@@ -68,14 +68,14 @@ Imperceptibility assesses whether the code remains fluent (in terms of Perplexit
 
 The difference in Perplexity between non-watermarked code $C_{H}$ and watermarked code $C_{wm}$ is normalized to measure imperceptibility.
 
-```math
-\mathrm{PPL}(C_{wm}) =
-\frac{1}{\lvert C_{wm}\rvert}
-\sum_{j=1}^{\lvert C_{wm}\rvert}
-\exp\left(
--\frac{1}{N_j}\sum_{i=1}^{N_j}\log P\left(y_i^{(j)} \mid y_{<i}^{(j)}\right)
+$$
+\operatorname{PPL}(C_{wm}) =
+\frac{1}{\left|C_{wm}\right|}
+\sum_{j=1}^{\left|C_{wm}\right|}
+\exp\!\left(
+-\frac{1}{N_j}\sum_{i=1}^{N_j}\log P\!\left(y_i^{(j)} \mid y_{<i}^{(j)}\right)
 \right)
-
+$$
 
 - $N_j$: Number of tokens in the j-th code sample in $C_{wm}$.
 - $P(y_i^{(j)} | y_{<i}^{(j)})$: The probability of token $y_i^{(j)}$ given its preceding context in the j-th sample, where $y_i^{(j)}$ represents the i-th token in the j-th code sample
