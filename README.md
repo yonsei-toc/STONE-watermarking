@@ -1,4 +1,4 @@
-# Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code
+# Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code (Findings of EACL 2026)
 <!-- [**📖 Paper**](https://arxiv.org/) -->
 
 ## TL; DR
