@@ -241,14 +241,13 @@ stem.py
 
 ## 🖊 Citation
 ```text
-@misc{kim2026markingcodebreakingit,
-      title={Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code}, 
-      author={Jungin Kim and Shinwoo Park and Yo-Sub Han},
-      year={2026},
-      eprint={2502.18851},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2502.18851}, 
+@inproceedings{kim-etal-2026-marking,
+    title = "Marking Code Without Breaking It: Code Watermarking for Detecting {LLM}-Generated Code",
+    author = "Kim, Jungin  and
+      Park, Shinwoo  and
+      Han, Yo-Sub",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EACL} 2026",
+    year = "2026",
 }
 ```
 
